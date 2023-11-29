@@ -1,0 +1,23 @@
+.feedbck__container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0 60px 0 60px;
+}
+
+.feedbck__btn {
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #f3f6f9;
+    color: grey;
+    transition: all 800ms;
+}
+
+.feedbck__btn:hover,
+.feedbck__btn:focus {
+    background-color: black;
+    color: white;
+}
